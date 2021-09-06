@@ -8,7 +8,7 @@
           <include name="afterMethodConfiguration"/>
           <include name="beforeMethodConfiguration"/>
           <include name="afterClassConfiguration"/>
-          <include name="createOpportunitywithMappingofExistingContactsTest"/>
+          <include name="createOpportunityWithMappingOrganizationTest"/>
           <include name="beforeClassConfiguration"/>
         </methods>
       </class> <!-- com.vtiger.comcast.opportunitytest.OpportunityTest -->

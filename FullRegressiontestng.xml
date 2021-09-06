@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.vtiger.comcast.opportunitytest.OpportunityTest_2"/>
+      <class name="com.vtiger.comcast.opportunitytest.TC_03_OpportunityTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

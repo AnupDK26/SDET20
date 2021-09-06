@@ -3,15 +3,24 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.vtiger.comcast.opportunitytest.OpportunityTest_2">
+      <class name="com.vtiger.comcast.opportunitytest.TC_02_OpportunityTest">
         <methods>
+          <include name="afterMethodConfiguration"/>
+          <include name="beforeMethodConfiguration"/>
+          <include name="afterClassConfiguration"/>
           <include name="createOpportunityTest"/>
+          <include name="beforeClassConfiguration"/>
+        </methods>
+      </class> <!-- com.vtiger.comcast.opportunitytest.TC_02_OpportunityTest -->
+      <class name="com.vtiger.comcast.opportunitytest.OpportunityTest">
+        <methods>
           <include name="afterMethodConfiguration"/>
           <include name="beforeMethodConfiguration"/>
           <include name="afterClassConfiguration"/>
           <include name="beforeClassConfiguration"/>
+          <include name="createOpportunityTest"/>
         </methods>
-      </class> <!-- com.vtiger.comcast.opportunitytest.OpportunityTest_2 -->
+      </class> <!-- com.vtiger.comcast.opportunitytest.OpportunityTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
