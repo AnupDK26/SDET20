@@ -8,8 +8,8 @@
           <include name="afterMethodConfiguration"/>
           <include name="beforeMethodConfiguration"/>
           <include name="afterClassConfiguration"/>
-          <include name="createOpportunityWithMappingOrganizationTest"/>
           <include name="beforeClassConfiguration"/>
+          <include name="createOpportunityTest"/>
         </methods>
       </class> <!-- com.vtiger.comcast.opportunitytest.OpportunityTest -->
     </classes>

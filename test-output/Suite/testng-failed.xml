@@ -12,15 +12,6 @@
           <include name="beforeClassConfiguration"/>
         </methods>
       </class> <!-- com.vtiger.comcast.opportunitytest.TC_02_OpportunityTest -->
-      <class name="com.vtiger.comcast.opportunitytest.OpportunityTest">
-        <methods>
-          <include name="afterMethodConfiguration"/>
-          <include name="beforeMethodConfiguration"/>
-          <include name="afterClassConfiguration"/>
-          <include name="beforeClassConfiguration"/>
-          <include name="createOpportunityTest"/>
-        </methods>
-      </class> <!-- com.vtiger.comcast.opportunitytest.OpportunityTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
