@@ -73,7 +73,7 @@
    </profile>
    
     <profile>
-     <id>fullregression</id>
+     <id>2aregression</id>
          <build>
 		 <plugins>
 			<!-- Below plug-in is used to execute tests -->
@@ -85,7 +85,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<suiteXmlFile>1atestng.xml</suiteXmlFile>
+						<suiteXmlFile>2atestng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

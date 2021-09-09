@@ -16,7 +16,7 @@ import com.vitiger.comcast.pomrepositorylib.HomePage;
 import com.vitiger.comcast.pomrepositorylib.Login;
 
 public class BaseClass {
-
+	
     public static WebDriver driver;
    	
     public WebDriverUtility wdu = new WebDriverUtility();
@@ -25,11 +25,13 @@ public class BaseClass {
     
     
 //  @Parameters("Browser")
+    
 	@BeforeClass (groups= {"SmokeTest", "RegressionTest"})
 	public void beforeClassConfiguration() throws IOException
 	{
     	System.out.println("==============Launch the Browser=============");
-		String Browser1 = filU.propertyFile("browser");
+		//String Browser1 = filU.propertyFile("browser");
+    	String Browser1 = System.getProperty("browser");
 		if(Browser1.equals("chrome"))
 	    {
 	    	driver = new ChromeDriver();
@@ -52,8 +54,8 @@ public class BaseClass {
       
 		
 		String URL = filU.propertyFile("url");
-		String USERNAME = filU.propertyFile("username");
-		String PASSWORD = filU.propertyFile("password");
+		String USERNAME = System.getProperty("username");
+		String PASSWORD = System.getProperty("password");
 		
 		 /*Step1 : Navigate to App*/
 	    driver.get(URL);
