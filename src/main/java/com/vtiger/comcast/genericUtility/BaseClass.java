@@ -30,8 +30,8 @@ public class BaseClass {
 	public void beforeClassConfiguration() throws IOException
 	{
     	System.out.println("==============Launch the Browser=============");
-		//String Browser1 = filU.propertyFile("browser");
-    	String Browser1 = System.getProperty("browser");
+		String Browser1 = filU.propertyFile("browser");
+    //	String Browser1 = System.getProperty("browser");
 		if(Browser1.equals("chrome"))
 	    {
 	    	driver = new ChromeDriver();
@@ -54,8 +54,11 @@ public class BaseClass {
       
 		
 		String URL = filU.propertyFile("url");
-		String USERNAME = System.getProperty("username");
-		String PASSWORD = System.getProperty("password");
+//		String USERNAME = System.getProperty("username");
+//		String PASSWORD = System.getProperty("password");
+		
+		String USERNAME = filU.propertyFile("username");
+		String PASSWORD = filU.propertyFile("password");
 		
 		 /*Step1 : Navigate to App*/
 	    driver.get(URL);
