@@ -26,7 +26,7 @@ import com.vtiger.comcast.genericUtility.ExcelUtility;
 import com.vtiger.comcast.genericUtility.FileUtility;
 import com.vtiger.comcast.genericUtility.WebDriverUtility;
 
-public class OrganizationPage1 {
+public class OrganizationPage1ExtentReport {
 
     public WebDriver driver;
    	

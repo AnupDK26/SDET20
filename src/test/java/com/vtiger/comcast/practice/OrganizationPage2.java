@@ -23,7 +23,7 @@ import com.vtiger.comcast.genericUtility.ExcelUtility;
 import com.vtiger.comcast.genericUtility.FileUtility;
 import com.vtiger.comcast.genericUtility.WebDriverUtility;
 
-public class OrganizationPage2 extends OrganizationPage1{
+public class OrganizationPage2 extends OrganizationPage1ExtentReport{
 
 //	 public WebDriver driver;
 //	   	
